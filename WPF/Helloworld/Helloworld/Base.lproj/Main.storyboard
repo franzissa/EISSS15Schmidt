@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" alpha="0.20000000000000001" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="hi test" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BzI-Yc-yOq">
+                                <rect key="frame" x="16" y="20" width="295" height="107"/>
+                                <color key="backgroundColor" red="0.61171872953702655" green="1" blue="0.51011336542615182" alpha="1" colorSpace="calibratedRGB"/>
+                                <gestureRecognizers/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="4Aw-ah-gUq" appends="YES" id="Bj9-fg-Q3w"/>
+                                    <outletCollection property="gestureRecognizers" destination="8F5-oL-RpK" appends="YES" id="HzM-nh-i1c"/>
+                                </connections>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Hello World" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dbP-uE-fWR">
+                                <rect key="frame" x="116" y="64" width="89" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CXH-zI-MrA">
+                                <rect key="frame" x="137" y="207" width="46" height="30"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="greetingsButtonTouched:" destination="BYZ-38-t0r" eventType="touchUpInside" id="abo-SW-cYU"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="E33-NG-sxS">
+                                <rect key="frame" x="112" y="148" width="97" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <connections>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="19g-mB-cOT"/>
+                                </connections>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="leadingMargin" secondItem="BzI-Yc-yOq" secondAttribute="leading" id="FCD-5Q-IYX"/>
+                            <constraint firstItem="E33-NG-sxS" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="92" id="GZn-gI-PgQ"/>
+                            <constraint firstItem="BzI-Yc-yOq" firstAttribute="leading" secondItem="dbP-uE-fWR" secondAttribute="trailing" constant="-185" id="Pyh-Fv-mAr"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="E33-NG-sxS" secondAttribute="trailing" constant="91" id="Qh5-yc-zGY"/>
+                            <constraint firstItem="E33-NG-sxS" firstAttribute="top" secondItem="BzI-Yc-yOq" secondAttribute="bottom" constant="21" id="RTW-4I-GnO"/>
+                            <constraint firstItem="E33-NG-sxS" firstAttribute="top" secondItem="dbP-uE-fWR" secondAttribute="bottom" constant="63" id="bKZ-an-TZx"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="BzI-Yc-yOq" secondAttribute="trailing" constant="-7" id="dlH-o9-nXG"/>
+                            <constraint firstItem="BzI-Yc-yOq" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="hrq-0h-7A4"/>
+                            <constraint firstItem="dbP-uE-fWR" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="44" id="iLO-9c-9co"/>
+                            <constraint firstItem="CXH-zI-MrA" firstAttribute="top" secondItem="E33-NG-sxS" secondAttribute="bottom" constant="29" id="mhw-EW-tTR"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="greetingLabel" destination="dbP-uE-fWR" id="Eba-iz-eGL"/>
+                        <outlet property="nameTextField" destination="E33-NG-sxS" id="ND7-Xt-LDV"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="4Aw-ah-gUq">
+                    <connections>
+                        <action selector="LabelTap:" destination="BYZ-38-t0r" id="BE7-Ft-Zvn"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <swipeGestureRecognizer direction="right" id="8F5-oL-RpK">
+                    <connections>
+                        <action selector="LabelSwipe:" destination="BYZ-38-t0r" id="IfP-us-KFD"/>
+                    </connections>
+                </swipeGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="162" y="250"/>
+        </scene>
+    </scenes>
+</document>
