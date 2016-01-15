@@ -190,8 +190,8 @@
                                     </tableViewCell>
                                 </prototypes>
                                 <connections>
-                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="Qgo-pz-4hl"/>
-                                    <outlet property="delegate" destination="BYZ-38-t0r" id="UbN-EJ-5Fm"/>
+                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="fXs-wV-ycQ"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="JCt-qT-LpI"/>
                                 </connections>
                             </tableView>
                         </subviews>

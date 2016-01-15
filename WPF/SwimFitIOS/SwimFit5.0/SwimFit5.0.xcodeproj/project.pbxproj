@@ -7,16 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B50B7CC81C47D5AC00BBD2B0 /* Vereine-120x120-gruppe-voll-blau.png in Resources */ = {isa = PBXBuildFile; fileRef = B50B7CC71C47D5AC00BBD2B0 /* Vereine-120x120-gruppe-voll-blau.png */; };
-		B50B7CCA1C47D68500BBD2B0 /* Equipment-120x120-blau.png in Resources */ = {isa = PBXBuildFile; fileRef = B50B7CC91C47D68500BBD2B0 /* Equipment-120x120-blau.png */; };
-		B50B7CF51C47F38500BBD2B0 /* Training-120x120-blau.png in Resources */ = {isa = PBXBuildFile; fileRef = B50B7CF41C47F38500BBD2B0 /* Training-120x120-blau.png */; };
-		B50B7CF71C47F71300BBD2B0 /* Stats-120x120-dünn-blau.png in Resources */ = {isa = PBXBuildFile; fileRef = B50B7CF61C47F71300BBD2B0 /* Stats-120x120-dünn-blau.png */; };
-		B50B7CF91C47F74400BBD2B0 /* Stoppuhr-viertelvor-120x120dünner-blau.png in Resources */ = {isa = PBXBuildFile; fileRef = B50B7CF81C47F74400BBD2B0 /* Stoppuhr-viertelvor-120x120dünner-blau.png */; };
-		B59566591C3E99A400EB85ED /* Stoppuhr-viertelvor-120x120blau.png in Resources */ = {isa = PBXBuildFile; fileRef = B59566581C3E99A400EB85ED /* Stoppuhr-viertelvor-120x120blau.png */; };
-		B595665B1C3E9D4B00EB85ED /* Stats-120x120blau.png in Resources */ = {isa = PBXBuildFile; fileRef = B595665A1C3E9D4B00EB85ED /* Stats-120x120blau.png */; };
-		B595665D1C3E9D8600EB85ED /* Innen-Pools-120x120blau.png in Resources */ = {isa = PBXBuildFile; fileRef = B595665C1C3E9D8600EB85ED /* Innen-Pools-120x120blau.png */; };
-		B595665F1C3E9DCB00EB85ED /* Schwimmer-120x120-blau.png in Resources */ = {isa = PBXBuildFile; fileRef = B595665E1C3E9DCB00EB85ED /* Schwimmer-120x120-blau.png */; };
-		B59566611C3E9E2200EB85ED /* Medallien-120x120blau.png in Resources */ = {isa = PBXBuildFile; fileRef = B59566601C3E9E2200EB85ED /* Medallien-120x120blau.png */; };
+		B522CEF61C486D73006ADCCE /* Stoppuhr-viertelvor-120x120dünner-blau.png in Resources */ = {isa = PBXBuildFile; fileRef = B522CEF51C486D73006ADCCE /* Stoppuhr-viertelvor-120x120dünner-blau.png */; };
+		B522CEF81C486D79006ADCCE /* Stats-120x120-dünn-blau.png in Resources */ = {isa = PBXBuildFile; fileRef = B522CEF71C486D79006ADCCE /* Stats-120x120-dünn-blau.png */; };
+		B522CEFC1C486DA4006ADCCE /* Stats-120x120-dünn-blau.png in Resources */ = {isa = PBXBuildFile; fileRef = B522CEFB1C486DA4006ADCCE /* Stats-120x120-dünn-blau.png */; };
+		B522CEFE1C486DAD006ADCCE /* Training-120x120-blau.png in Resources */ = {isa = PBXBuildFile; fileRef = B522CEFD1C486DAD006ADCCE /* Training-120x120-blau.png */; };
+		B522CF001C486DB2006ADCCE /* Vereine-120x120-gruppe-voll-blau.png in Resources */ = {isa = PBXBuildFile; fileRef = B522CEFF1C486DB2006ADCCE /* Vereine-120x120-gruppe-voll-blau.png */; };
+		B522CF021C486DBC006ADCCE /* Medallien-120x120blau.png in Resources */ = {isa = PBXBuildFile; fileRef = B522CF011C486DBC006ADCCE /* Medallien-120x120blau.png */; };
+		B522CF041C486FA5006ADCCE /* Schwimmer-120x120-blau.png in Resources */ = {isa = PBXBuildFile; fileRef = B522CF031C486FA5006ADCCE /* Schwimmer-120x120-blau.png */; };
+		B522CF061C486FB6006ADCCE /* Innen-Pools-120x120blau.png in Resources */ = {isa = PBXBuildFile; fileRef = B522CF051C486FB6006ADCCE /* Innen-Pools-120x120blau.png */; };
+		B522CF081C486FFB006ADCCE /* Equipment-120x120-blau.png in Resources */ = {isa = PBXBuildFile; fileRef = B522CF071C486FFB006ADCCE /* Equipment-120x120-blau.png */; };
 		B5E7B9BA1C3E97AA00E6A488 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B5E7B9B91C3E97AA00E6A488 /* main.m */; };
 		B5E7B9BD1C3E97AA00E6A488 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B5E7B9BC1C3E97AA00E6A488 /* AppDelegate.m */; };
 		B5E7B9C01C3E97AA00E6A488 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5E7B9BF1C3E97AA00E6A488 /* ViewController.m */; };
@@ -26,16 +25,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		B50B7CC71C47D5AC00BBD2B0 /* Vereine-120x120-gruppe-voll-blau.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Vereine-120x120-gruppe-voll-blau.png"; path = "../../../../Downloads/Vereine-120x120-gruppe-voll-blau.png"; sourceTree = "<group>"; };
-		B50B7CC91C47D68500BBD2B0 /* Equipment-120x120-blau.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Equipment-120x120-blau.png"; path = "../../../../Downloads/Equipment-120x120-blau.png"; sourceTree = "<group>"; };
-		B50B7CF41C47F38500BBD2B0 /* Training-120x120-blau.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Training-120x120-blau.png"; path = "../../../../Downloads/Training-120x120-blau.png"; sourceTree = "<group>"; };
-		B50B7CF61C47F71300BBD2B0 /* Stats-120x120-dünn-blau.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Stats-120x120-dünn-blau.png"; path = "../../../../Downloads/Stats-120x120-dünn-blau.png"; sourceTree = "<group>"; };
-		B50B7CF81C47F74400BBD2B0 /* Stoppuhr-viertelvor-120x120dünner-blau.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Stoppuhr-viertelvor-120x120dünner-blau.png"; path = "../../../../Downloads/Stoppuhr-viertelvor-120x120dünner-blau.png"; sourceTree = "<group>"; };
-		B59566581C3E99A400EB85ED /* Stoppuhr-viertelvor-120x120blau.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Stoppuhr-viertelvor-120x120blau.png"; path = "../../../../Downloads/Stoppuhr-viertelvor-120x120blau.png"; sourceTree = "<group>"; };
-		B595665A1C3E9D4B00EB85ED /* Stats-120x120blau.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Stats-120x120blau.png"; path = "../../../../Downloads/Stats-120x120blau.png"; sourceTree = "<group>"; };
-		B595665C1C3E9D8600EB85ED /* Innen-Pools-120x120blau.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Innen-Pools-120x120blau.png"; path = "../../../../Downloads/Innen-Pools-120x120blau.png"; sourceTree = "<group>"; };
-		B595665E1C3E9DCB00EB85ED /* Schwimmer-120x120-blau.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Schwimmer-120x120-blau.png"; path = "../../../../Downloads/Schwimmer-120x120-blau.png"; sourceTree = "<group>"; };
-		B59566601C3E9E2200EB85ED /* Medallien-120x120blau.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Medallien-120x120blau.png"; path = "../../../../Downloads/Medallien-120x120blau.png"; sourceTree = "<group>"; };
+		B522CEF51C486D73006ADCCE /* Stoppuhr-viertelvor-120x120dünner-blau.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Stoppuhr-viertelvor-120x120dünner-blau.png"; path = "../../../../../Downloads/Stoppuhr-viertelvor-120x120dünner-blau.png"; sourceTree = "<group>"; };
+		B522CEF71C486D79006ADCCE /* Stats-120x120-dünn-blau.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Stats-120x120-dünn-blau.png"; path = "../../../../../Downloads/Stats-120x120-dünn-blau.png"; sourceTree = "<group>"; };
+		B522CEFB1C486DA4006ADCCE /* Stats-120x120-dünn-blau.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Stats-120x120-dünn-blau.png"; path = "../../../../../.Trash/Stats-120x120-dünn-blau.png"; sourceTree = "<group>"; };
+		B522CEFD1C486DAD006ADCCE /* Training-120x120-blau.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Training-120x120-blau.png"; path = "../../../../../Downloads/Training-120x120-blau.png"; sourceTree = "<group>"; };
+		B522CEFF1C486DB2006ADCCE /* Vereine-120x120-gruppe-voll-blau.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Vereine-120x120-gruppe-voll-blau.png"; path = "../../../../../Downloads/Vereine-120x120-gruppe-voll-blau.png"; sourceTree = "<group>"; };
+		B522CF011C486DBC006ADCCE /* Medallien-120x120blau.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Medallien-120x120blau.png"; path = "../../../../../Downloads/Medallien-120x120blau.png"; sourceTree = "<group>"; };
+		B522CF031C486FA5006ADCCE /* Schwimmer-120x120-blau.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Schwimmer-120x120-blau.png"; path = "../../../../../Downloads/Schwimmer-120x120-blau.png"; sourceTree = "<group>"; };
+		B522CF051C486FB6006ADCCE /* Innen-Pools-120x120blau.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Innen-Pools-120x120blau.png"; path = "../../../../../Downloads/Innen-Pools-120x120blau.png"; sourceTree = "<group>"; };
+		B522CF071C486FFB006ADCCE /* Equipment-120x120-blau.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Equipment-120x120-blau.png"; path = "../../../../../Downloads/Equipment-120x120-blau.png"; sourceTree = "<group>"; };
 		B5E7B9B51C3E97AA00E6A488 /* SwimFit5.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwimFit5.0.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5E7B9B91C3E97AA00E6A488 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B5E7B9BB1C3E97AA00E6A488 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -64,16 +62,15 @@
 			children = (
 				B5E7B9B71C3E97AA00E6A488 /* SwimFit5.0 */,
 				B5E7B9B61C3E97AA00E6A488 /* Products */,
-				B59566581C3E99A400EB85ED /* Stoppuhr-viertelvor-120x120blau.png */,
-				B595665A1C3E9D4B00EB85ED /* Stats-120x120blau.png */,
-				B595665C1C3E9D8600EB85ED /* Innen-Pools-120x120blau.png */,
-				B595665E1C3E9DCB00EB85ED /* Schwimmer-120x120-blau.png */,
-				B59566601C3E9E2200EB85ED /* Medallien-120x120blau.png */,
-				B50B7CC71C47D5AC00BBD2B0 /* Vereine-120x120-gruppe-voll-blau.png */,
-				B50B7CC91C47D68500BBD2B0 /* Equipment-120x120-blau.png */,
-				B50B7CF41C47F38500BBD2B0 /* Training-120x120-blau.png */,
-				B50B7CF61C47F71300BBD2B0 /* Stats-120x120-dünn-blau.png */,
-				B50B7CF81C47F74400BBD2B0 /* Stoppuhr-viertelvor-120x120dünner-blau.png */,
+				B522CEF51C486D73006ADCCE /* Stoppuhr-viertelvor-120x120dünner-blau.png */,
+				B522CEF71C486D79006ADCCE /* Stats-120x120-dünn-blau.png */,
+				B522CEFB1C486DA4006ADCCE /* Stats-120x120-dünn-blau.png */,
+				B522CEFD1C486DAD006ADCCE /* Training-120x120-blau.png */,
+				B522CEFF1C486DB2006ADCCE /* Vereine-120x120-gruppe-voll-blau.png */,
+				B522CF011C486DBC006ADCCE /* Medallien-120x120blau.png */,
+				B522CF031C486FA5006ADCCE /* Schwimmer-120x120-blau.png */,
+				B522CF051C486FB6006ADCCE /* Innen-Pools-120x120blau.png */,
+				B522CF071C486FFB006ADCCE /* Equipment-120x120-blau.png */,
 			);
 			sourceTree = "<group>";
 		};
@@ -166,19 +163,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B50B7CF71C47F71300BBD2B0 /* Stats-120x120-dünn-blau.png in Resources */,
+				B522CF061C486FB6006ADCCE /* Innen-Pools-120x120blau.png in Resources */,
+				B522CF041C486FA5006ADCCE /* Schwimmer-120x120-blau.png in Resources */,
+				B522CEFC1C486DA4006ADCCE /* Stats-120x120-dünn-blau.png in Resources */,
+				B522CEF81C486D79006ADCCE /* Stats-120x120-dünn-blau.png in Resources */,
+				B522CEFE1C486DAD006ADCCE /* Training-120x120-blau.png in Resources */,
+				B522CF001C486DB2006ADCCE /* Vereine-120x120-gruppe-voll-blau.png in Resources */,
+				B522CF021C486DBC006ADCCE /* Medallien-120x120blau.png in Resources */,
 				B5E7B9C81C3E97AA00E6A488 /* LaunchScreen.storyboard in Resources */,
-				B50B7CC81C47D5AC00BBD2B0 /* Vereine-120x120-gruppe-voll-blau.png in Resources */,
-				B595665B1C3E9D4B00EB85ED /* Stats-120x120blau.png in Resources */,
-				B50B7CF91C47F74400BBD2B0 /* Stoppuhr-viertelvor-120x120dünner-blau.png in Resources */,
-				B595665F1C3E9DCB00EB85ED /* Schwimmer-120x120-blau.png in Resources */,
-				B59566591C3E99A400EB85ED /* Stoppuhr-viertelvor-120x120blau.png in Resources */,
-				B595665D1C3E9D8600EB85ED /* Innen-Pools-120x120blau.png in Resources */,
 				B5E7B9C51C3E97AA00E6A488 /* Assets.xcassets in Resources */,
-				B59566611C3E9E2200EB85ED /* Medallien-120x120blau.png in Resources */,
+				B522CF081C486FFB006ADCCE /* Equipment-120x120-blau.png in Resources */,
+				B522CEF61C486D73006ADCCE /* Stoppuhr-viertelvor-120x120dünner-blau.png in Resources */,
 				B5E7B9C31C3E97AA00E6A488 /* Main.storyboard in Resources */,
-				B50B7CCA1C47D68500BBD2B0 /* Equipment-120x120-blau.png in Resources */,
-				B50B7CF51C47F38500BBD2B0 /* Training-120x120-blau.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
