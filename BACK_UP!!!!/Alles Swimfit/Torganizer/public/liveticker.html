@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script type="text/javascript" src="/faye/client.js"></script>
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script type="text/javascript">
+
+        /* Hier wird der Liveticker abonniert und angezeigt */
+        $(document).ready(function() {
+
+            event.preventDefault();
+
+            $('#home').on('click', function () {
+                window.location.replace('index.html');
+            });
+        });
+
+        var client = new Faye.Client('/faye');
+        var subscription = client.subscribe('/liveticker', function(tick) {
+            $('table#tabelle tbody').first().append
+            ('<tr><td>'+tick+'</td></tr>');
+        });
+
+        function addTableRow(ticker){
+            $('table#tabelle tbody').first().append
+            ('<tr><td>'+ticker.tick+'</td></tr>');
+        }; 
+    </script>
+    <title>Tabellausgabe</title>
+</head>
+    <body>
+        <table id="tabelle" border="1">
+            <thead>
+                <th>Liveticker</th>
+            </thead>
+            <tbody></tbody>            
+        </table>
+        
+        <input id='home' type='submit' value='Startseite' />
+    </body>
+</html>

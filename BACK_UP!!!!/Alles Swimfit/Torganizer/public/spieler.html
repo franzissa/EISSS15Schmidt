@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script type="text/javascript" src="/faye/client.js"></script>
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script type="text/javascript">
+        var teamA = 'all';
+        $(document).ready(function() {
+            
+           event.preventDefault();
+            
+           refreshListe();
+            
+           $('#teamSelect').html('<option value="all">Alle</option>');            
+           
+            var request = $.ajax({
+                 type: 'GET',
+                 url: '/teamliste',
+                 contentType: 'application/json'
+            })
+            
+            request.done(function(data) {
+                 data.forEach(function(team) {
+                     $('#teamSelect').append('<option value="' + team.name + '">' + team.name + '</option>'); 
+                     console.log(team);
+                 });
+            })
+            request.fail(function(error) {
+                 alert('Es ist ein Fehler aufgetreten.');
+            });
+        
+            $("#schwimmerF").submit(function() {
+            event.preventDefault();
+               var data = 
+                    { 	
+                        team: $('#teamSelect').val() ,
+                        name: $('#name').val() ,
+                        punkte: 0
+                        
+                     };
+                     //AJAX - Methode für das POST
+                    $.ajax({
+                        type: 'POST',
+                        url: '/spielerliste',
+                        data: JSON.stringify(data),
+                        contentType: 'application/json'
+                      }).done(function(){
+                         $('#schwimmerF')[0].reset();
+                      }).fail(function(event){
+                        alert(data.body.name+' konnte nicht hinzugefuegt werden!('+JSON.stringify(event)+')');
+                      });
+            });
+            $("#teamSelect").change(function() {
+
+                teamA = $('#teamSelect').val();
+                event.preventDefault();
+                refreshListe();
+
+                if(teamA == 'all')
+                    document.getElementById('schwimmerF').style.display = 'none';
+                else
+                    document.getElementById('schwimmerF').style.display = 'block';
+            });   
+            
+            var client = new Faye.Client('/faye');
+            var subscription = client.subscribe('/schwimmer', function(schwimmer) {
+                    if(teamA == 'all')
+                        addRowAll(schwimmer);
+                    else if(teamA==spieler.team)
+                        addRow(schwimmer);
+            });
+            
+            $('#home').on('click', function () {
+                window.location.replace('index.html');
+            });
+        });  
+        
+        function refreshListe(){           
+            
+            $("#tabelle tr").remove();
+            
+            if(teamA == 'all')
+            {
+                $('table#tabelle thead').first().append
+                        ('<tr><th>Team</th><th>Name</th><th>Punkte</th></tr>');
+            }
+            
+            else {
+                $('table#tabelle thead').first().append
+                        ('<tr><th>Name</th><th>Punkte</th></tr>');
+            }
+            
+             
+            var request = $.ajax({
+                 type: 'GET',
+                 url: '/schwimmerliste',
+                 contentType: 'application/json'
+            })
+            request.done(function(data) {
+            
+                var temp;
+                for(var i=1; i<data.length; i++) {
+                    for(var j=0; j<data.length-i; j++) {
+                        if(data[j].punkte<data[j+1].punkte) {
+                            temp=data[j];
+                            data[j]=data[j+1];
+                            data[j+1]=temp;
+                        }
+                    }
+                }
+
+                data.forEach(function(schwimmer) {
+                    if(teamA == 'all')
+                        addRowAll(spieler);
+                    else if(teamA==schwimmer.team)
+                        addRow(schwimmer);
+                });
+            })
+            request.fail(function(error) {
+                 alert('Es ist ein Fehler aufgetreten.');
+            });
+        }
+        
+        function addRowAll(schwimmer) {
+            $('table#tabelle tbody').first().append
+                ('<tr><td>'+schwimmer.team+'</td><td>'+schwimmer.name +'</td><td>'+schwimmer.punkte +'</td></tr>');
+        }
+        function addRow(schwimmer) {
+            $('table#tabelle tbody').first().append
+                ('<tr><td>'+schwimmer.name +'</td><td>'+schwimmer.punkte +'</td></tr>');
+        }
+    </script>
+</head>
+    <body>
+            <label>Team: </label><select id="teamSelect" name="team">
+            </select>
+            <form id='schwimmerF' action='schwimmer' method='POST' style='display:none'>
+                 <label>Schwimmer hinzufügen: </label><br>
+                <input type='text' id = 'name' value=''/><br>
+                <input type='submit' value='Senden' /> 
+            </form>
+    
+            <br><br>
+            <table id="tabelle" border="1">
+            <thead></thead><tbody></tbody>
+        </table>
+        <br>
+        
+        <input id='home' type='submit' value='Startseite' />
+    </body>
+</html>
