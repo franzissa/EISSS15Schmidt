@@ -1,0 +1,622 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D868E2201C4E31FF004CD77F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D868E21F1C4E31FF004CD77F /* main.m */; };
+		D868E2231C4E31FF004CD77F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D868E2221C4E31FF004CD77F /* AppDelegate.m */; };
+		D868E2261C4E31FF004CD77F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D868E2251C4E31FF004CD77F /* ViewController.m */; };
+		D868E2291C4E3200004CD77F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D868E2271C4E3200004CD77F /* Main.storyboard */; };
+		D868E22B1C4E3200004CD77F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D868E22A1C4E3200004CD77F /* Assets.xcassets */; };
+		D868E22E1C4E3200004CD77F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D868E22C1C4E3200004CD77F /* LaunchScreen.storyboard */; };
+		D868E2391C4E3200004CD77F /* SwimFit_final_V2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = D868E2381C4E3200004CD77F /* SwimFit_final_V2Tests.m */; };
+		D868E2441C4E3200004CD77F /* SwimFit_final_V2UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D868E2431C4E3200004CD77F /* SwimFit_final_V2UITests.m */; };
+		D8B90C541C4F9DD800F423AC /* logo-swimfit-Apple-Button.png in Resources */ = {isa = PBXBuildFile; fileRef = D8B90C531C4F9DD800F423AC /* logo-swimfit-Apple-Button.png */; };
+		D8B90C581C4FA15200F423AC /* Trainingsmodul.m in Sources */ = {isa = PBXBuildFile; fileRef = D8B90C571C4FA15200F423AC /* Trainingsmodul.m */; };
+		D8B90C5B1C4FA17400F423AC /* Categories.m in Sources */ = {isa = PBXBuildFile; fileRef = D8B90C5A1C4FA17400F423AC /* Categories.m */; };
+		D8B90C5E1C4FA18F00F423AC /* Trainingsmodule.m in Sources */ = {isa = PBXBuildFile; fileRef = D8B90C5D1C4FA18F00F423AC /* Trainingsmodule.m */; };
+		D8B90C611C4FADE400F423AC /* TagDetailControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8B90C601C4FADE400F423AC /* TagDetailControllerViewController.m */; };
+		D8B90C641C4FAEFB00F423AC /* FilterListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8B90C631C4FAEFB00F423AC /* FilterListViewController.m */; };
+		D8F138E81C4E94D700094A45 /* logo-mit-pluszeichen-in-logofarbe.png in Resources */ = {isa = PBXBuildFile; fileRef = D8F138E71C4E94D700094A45 /* logo-mit-pluszeichen-in-logofarbe.png */; };
+		D8F138EA1C4E969F00094A45 /* Innen-Pools-120x120blau.png in Resources */ = {isa = PBXBuildFile; fileRef = D8F138E91C4E969F00094A45 /* Innen-Pools-120x120blau.png */; };
+		D8F138EC1C4E96AD00094A45 /* Medallien-120x120blau.png in Resources */ = {isa = PBXBuildFile; fileRef = D8F138EB1C4E96AD00094A45 /* Medallien-120x120blau.png */; };
+		D8F138EE1C4E96B700094A45 /* Schwimmer-120x120-blau.png in Resources */ = {isa = PBXBuildFile; fileRef = D8F138ED1C4E96B700094A45 /* Schwimmer-120x120-blau.png */; };
+		D8F138F01C4E96BC00094A45 /* Stoppuhr-viertelvor-120x120blau.png in Resources */ = {isa = PBXBuildFile; fileRef = D8F138EF1C4E96BC00094A45 /* Stoppuhr-viertelvor-120x120blau.png */; };
+		D8F138F21C4E96C000094A45 /* Stats-120x120blau.png in Resources */ = {isa = PBXBuildFile; fileRef = D8F138F11C4E96C000094A45 /* Stats-120x120blau.png */; };
+		D8F138F41C4E96C700094A45 /* Zahnrad-120x120-lila.png in Resources */ = {isa = PBXBuildFile; fileRef = D8F138F31C4E96C700094A45 /* Zahnrad-120x120-lila.png */; };
+		D8F138F61C4EB03D00094A45 /* Schwimmer-75x75-blau.png in Resources */ = {isa = PBXBuildFile; fileRef = D8F138F51C4EB03D00094A45 /* Schwimmer-75x75-blau.png */; };
+		D8F138F81C4EB04200094A45 /* logo-mit-pluszeichen-in-logofarbe75.png in Resources */ = {isa = PBXBuildFile; fileRef = D8F138F71C4EB04200094A45 /* logo-mit-pluszeichen-in-logofarbe75.png */; };
+		D8F138FA1C4EB21C00094A45 /* schwimmer50.png in Resources */ = {isa = PBXBuildFile; fileRef = D8F138F91C4EB21C00094A45 /* schwimmer50.png */; };
+		D8F138FC1C4EB31200094A45 /* Training-50x50-schwarz.png in Resources */ = {isa = PBXBuildFile; fileRef = D8F138FB1C4EB31200094A45 /* Training-50x50-schwarz.png */; };
+		D8F139001C4EB45400094A45 /* Training50n.png in Resources */ = {isa = PBXBuildFile; fileRef = D8F138FF1C4EB45400094A45 /* Training50n.png */; };
+		D8F139021C4EB49F00094A45 /* Trainingbn50.png in Resources */ = {isa = PBXBuildFile; fileRef = D8F139011C4EB49F00094A45 /* Trainingbn50.png */; };
+		D8F139041C4EB52000094A45 /* Trainingfinal.png in Resources */ = {isa = PBXBuildFile; fileRef = D8F139031C4EB52000094A45 /* Trainingfinal.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D868E2351C4E3200004CD77F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D868E2131C4E31FF004CD77F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D868E21A1C4E31FF004CD77F;
+			remoteInfo = SwimFit_final_V2;
+		};
+		D868E2401C4E3200004CD77F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D868E2131C4E31FF004CD77F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D868E21A1C4E31FF004CD77F;
+			remoteInfo = SwimFit_final_V2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D868E21B1C4E31FF004CD77F /* SwimFit_final_V2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwimFit_final_V2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D868E21F1C4E31FF004CD77F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D868E2211C4E31FF004CD77F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D868E2221C4E31FF004CD77F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D868E2241C4E31FF004CD77F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D868E2251C4E31FF004CD77F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D868E2281C4E3200004CD77F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D868E22A1C4E3200004CD77F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D868E22D1C4E3200004CD77F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D868E22F1C4E3200004CD77F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D868E2341C4E3200004CD77F /* SwimFit_final_V2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwimFit_final_V2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D868E2381C4E3200004CD77F /* SwimFit_final_V2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwimFit_final_V2Tests.m; sourceTree = "<group>"; };
+		D868E23A1C4E3200004CD77F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D868E23F1C4E3200004CD77F /* SwimFit_final_V2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwimFit_final_V2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D868E2431C4E3200004CD77F /* SwimFit_final_V2UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwimFit_final_V2UITests.m; sourceTree = "<group>"; };
+		D868E2451C4E3200004CD77F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8B90C531C4F9DD800F423AC /* logo-swimfit-Apple-Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "logo-swimfit-Apple-Button.png"; path = "../../../../Downloads/logo-swimfit-Apple-Button.png"; sourceTree = "<group>"; };
+		D8B90C561C4FA15200F423AC /* Trainingsmodul.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Trainingsmodul.h; sourceTree = "<group>"; };
+		D8B90C571C4FA15200F423AC /* Trainingsmodul.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Trainingsmodul.m; sourceTree = "<group>"; };
+		D8B90C591C4FA17400F423AC /* Categories.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Categories.h; sourceTree = "<group>"; };
+		D8B90C5A1C4FA17400F423AC /* Categories.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Categories.m; sourceTree = "<group>"; };
+		D8B90C5C1C4FA18F00F423AC /* Trainingsmodule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Trainingsmodule.h; sourceTree = "<group>"; };
+		D8B90C5D1C4FA18F00F423AC /* Trainingsmodule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Trainingsmodule.m; sourceTree = "<group>"; };
+		D8B90C5F1C4FADE400F423AC /* TagDetailControllerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TagDetailControllerViewController.h; sourceTree = "<group>"; };
+		D8B90C601C4FADE400F423AC /* TagDetailControllerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TagDetailControllerViewController.m; sourceTree = "<group>"; };
+		D8B90C621C4FAEFB00F423AC /* FilterListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FilterListViewController.h; sourceTree = "<group>"; };
+		D8B90C631C4FAEFB00F423AC /* FilterListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FilterListViewController.m; sourceTree = "<group>"; };
+		D8F138E71C4E94D700094A45 /* logo-mit-pluszeichen-in-logofarbe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "logo-mit-pluszeichen-in-logofarbe.png"; path = "../../../../EISWS1516Schmidt/BACK_UP!!!!/Alles Swimfit/logo-mit-pluszeichen-in-logofarbe.png"; sourceTree = "<group>"; };
+		D8F138E91C4E969F00094A45 /* Innen-Pools-120x120blau.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Innen-Pools-120x120blau.png"; path = "../../../../EISWS1516Schmidt/BACK_UP!!!!/Alles Swimfit/Innen-Pools-120x120blau.png"; sourceTree = "<group>"; };
+		D8F138EB1C4E96AD00094A45 /* Medallien-120x120blau.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Medallien-120x120blau.png"; path = "../../../../EISWS1516Schmidt/BACK_UP!!!!/Alles Swimfit/Medallien-120x120blau.png"; sourceTree = "<group>"; };
+		D8F138ED1C4E96B700094A45 /* Schwimmer-120x120-blau.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Schwimmer-120x120-blau.png"; path = "../../../../EISWS1516Schmidt/BACK_UP!!!!/Alles Swimfit/Schwimmer-120x120-blau.png"; sourceTree = "<group>"; };
+		D8F138EF1C4E96BC00094A45 /* Stoppuhr-viertelvor-120x120blau.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Stoppuhr-viertelvor-120x120blau.png"; path = "../../../../EISWS1516Schmidt/BACK_UP!!!!/Alles Swimfit/Stoppuhr-viertelvor-120x120blau.png"; sourceTree = "<group>"; };
+		D8F138F11C4E96C000094A45 /* Stats-120x120blau.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Stats-120x120blau.png"; path = "../../../../EISWS1516Schmidt/BACK_UP!!!!/Alles Swimfit/Stats-120x120blau.png"; sourceTree = "<group>"; };
+		D8F138F31C4E96C700094A45 /* Zahnrad-120x120-lila.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Zahnrad-120x120-lila.png"; path = "../../../../EISWS1516Schmidt/BACK_UP!!!!/Alles Swimfit/Zahnrad-120x120-lila.png"; sourceTree = "<group>"; };
+		D8F138F51C4EB03D00094A45 /* Schwimmer-75x75-blau.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Schwimmer-75x75-blau.png"; path = "../../../../Downloads/Schwimmer-75x75-blau.png"; sourceTree = "<group>"; };
+		D8F138F71C4EB04200094A45 /* logo-mit-pluszeichen-in-logofarbe75.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "logo-mit-pluszeichen-in-logofarbe75.png"; path = "../../../../Downloads/logo-mit-pluszeichen-in-logofarbe75.png"; sourceTree = "<group>"; };
+		D8F138F91C4EB21C00094A45 /* schwimmer50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = schwimmer50.png; path = ../../../../Downloads/schwimmer50.png; sourceTree = "<group>"; };
+		D8F138FB1C4EB31200094A45 /* Training-50x50-schwarz.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Training-50x50-schwarz.png"; path = "../../../../Downloads/Training-50x50-schwarz.png"; sourceTree = "<group>"; };
+		D8F138FF1C4EB45400094A45 /* Training50n.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Training50n.png; path = ../../../../Downloads/Training50n.png; sourceTree = "<group>"; };
+		D8F139011C4EB49F00094A45 /* Trainingbn50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Trainingbn50.png; path = ../../../../Downloads/Trainingbn50.png; sourceTree = "<group>"; };
+		D8F139031C4EB52000094A45 /* Trainingfinal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Trainingfinal.png; path = ../../../../Downloads/Trainingfinal.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D868E2181C4E31FF004CD77F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D868E2311C4E3200004CD77F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D868E23C1C4E3200004CD77F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D868E2121C4E31FF004CD77F = {
+			isa = PBXGroup;
+			children = (
+				D868E21D1C4E31FF004CD77F /* SwimFit_final_V2 */,
+				D868E2371C4E3200004CD77F /* SwimFit_final_V2Tests */,
+				D868E2421C4E3200004CD77F /* SwimFit_final_V2UITests */,
+				D868E21C1C4E31FF004CD77F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D868E21C1C4E31FF004CD77F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D868E21B1C4E31FF004CD77F /* SwimFit_final_V2.app */,
+				D868E2341C4E3200004CD77F /* SwimFit_final_V2Tests.xctest */,
+				D868E23F1C4E3200004CD77F /* SwimFit_final_V2UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D868E21D1C4E31FF004CD77F /* SwimFit_final_V2 */ = {
+			isa = PBXGroup;
+			children = (
+				D8B90C551C4FA10B00F423AC /* Model */,
+				D868E2211C4E31FF004CD77F /* AppDelegate.h */,
+				D868E2221C4E31FF004CD77F /* AppDelegate.m */,
+				D868E2241C4E31FF004CD77F /* ViewController.h */,
+				D868E2251C4E31FF004CD77F /* ViewController.m */,
+				D8B90C5F1C4FADE400F423AC /* TagDetailControllerViewController.h */,
+				D8B90C601C4FADE400F423AC /* TagDetailControllerViewController.m */,
+				D8B90C621C4FAEFB00F423AC /* FilterListViewController.h */,
+				D8B90C631C4FAEFB00F423AC /* FilterListViewController.m */,
+				D868E2271C4E3200004CD77F /* Main.storyboard */,
+				D868E22A1C4E3200004CD77F /* Assets.xcassets */,
+				D868E22C1C4E3200004CD77F /* LaunchScreen.storyboard */,
+				D8F138EF1C4E96BC00094A45 /* Stoppuhr-viertelvor-120x120blau.png */,
+				D8F138F51C4EB03D00094A45 /* Schwimmer-75x75-blau.png */,
+				D868E22F1C4E3200004CD77F /* Info.plist */,
+				D8F138ED1C4E96B700094A45 /* Schwimmer-120x120-blau.png */,
+				D8F138E71C4E94D700094A45 /* logo-mit-pluszeichen-in-logofarbe.png */,
+				D8F138F11C4E96C000094A45 /* Stats-120x120blau.png */,
+				D8F138F71C4EB04200094A45 /* logo-mit-pluszeichen-in-logofarbe75.png */,
+				D8F139031C4EB52000094A45 /* Trainingfinal.png */,
+				D8F138F31C4E96C700094A45 /* Zahnrad-120x120-lila.png */,
+				D8F138FB1C4EB31200094A45 /* Training-50x50-schwarz.png */,
+				D8F138FF1C4EB45400094A45 /* Training50n.png */,
+				D8F138F91C4EB21C00094A45 /* schwimmer50.png */,
+				D8B90C531C4F9DD800F423AC /* logo-swimfit-Apple-Button.png */,
+				D8F139011C4EB49F00094A45 /* Trainingbn50.png */,
+				D8F138E91C4E969F00094A45 /* Innen-Pools-120x120blau.png */,
+				D8F138EB1C4E96AD00094A45 /* Medallien-120x120blau.png */,
+				D868E21E1C4E31FF004CD77F /* Supporting Files */,
+			);
+			path = SwimFit_final_V2;
+			sourceTree = "<group>";
+		};
+		D868E21E1C4E31FF004CD77F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D868E21F1C4E31FF004CD77F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D868E2371C4E3200004CD77F /* SwimFit_final_V2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				D868E2381C4E3200004CD77F /* SwimFit_final_V2Tests.m */,
+				D868E23A1C4E3200004CD77F /* Info.plist */,
+			);
+			path = SwimFit_final_V2Tests;
+			sourceTree = "<group>";
+		};
+		D868E2421C4E3200004CD77F /* SwimFit_final_V2UITests */ = {
+			isa = PBXGroup;
+			children = (
+				D868E2431C4E3200004CD77F /* SwimFit_final_V2UITests.m */,
+				D868E2451C4E3200004CD77F /* Info.plist */,
+			);
+			path = SwimFit_final_V2UITests;
+			sourceTree = "<group>";
+		};
+		D8B90C551C4FA10B00F423AC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D8B90C561C4FA15200F423AC /* Trainingsmodul.h */,
+				D8B90C571C4FA15200F423AC /* Trainingsmodul.m */,
+				D8B90C591C4FA17400F423AC /* Categories.h */,
+				D8B90C5A1C4FA17400F423AC /* Categories.m */,
+				D8B90C5C1C4FA18F00F423AC /* Trainingsmodule.h */,
+				D8B90C5D1C4FA18F00F423AC /* Trainingsmodule.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D868E21A1C4E31FF004CD77F /* SwimFit_final_V2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D868E2481C4E3200004CD77F /* Build configuration list for PBXNativeTarget "SwimFit_final_V2" */;
+			buildPhases = (
+				D868E2171C4E31FF004CD77F /* Sources */,
+				D868E2181C4E31FF004CD77F /* Frameworks */,
+				D868E2191C4E31FF004CD77F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwimFit_final_V2;
+			productName = SwimFit_final_V2;
+			productReference = D868E21B1C4E31FF004CD77F /* SwimFit_final_V2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D868E2331C4E3200004CD77F /* SwimFit_final_V2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D868E24B1C4E3200004CD77F /* Build configuration list for PBXNativeTarget "SwimFit_final_V2Tests" */;
+			buildPhases = (
+				D868E2301C4E3200004CD77F /* Sources */,
+				D868E2311C4E3200004CD77F /* Frameworks */,
+				D868E2321C4E3200004CD77F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D868E2361C4E3200004CD77F /* PBXTargetDependency */,
+			);
+			name = SwimFit_final_V2Tests;
+			productName = SwimFit_final_V2Tests;
+			productReference = D868E2341C4E3200004CD77F /* SwimFit_final_V2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D868E23E1C4E3200004CD77F /* SwimFit_final_V2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D868E24E1C4E3200004CD77F /* Build configuration list for PBXNativeTarget "SwimFit_final_V2UITests" */;
+			buildPhases = (
+				D868E23B1C4E3200004CD77F /* Sources */,
+				D868E23C1C4E3200004CD77F /* Frameworks */,
+				D868E23D1C4E3200004CD77F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D868E2411C4E3200004CD77F /* PBXTargetDependency */,
+			);
+			name = SwimFit_final_V2UITests;
+			productName = SwimFit_final_V2UITests;
+			productReference = D868E23F1C4E3200004CD77F /* SwimFit_final_V2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D868E2131C4E31FF004CD77F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Franziska Schmidt";
+				TargetAttributes = {
+					D868E21A1C4E31FF004CD77F = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					D868E2331C4E3200004CD77F = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = D868E21A1C4E31FF004CD77F;
+					};
+					D868E23E1C4E3200004CD77F = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = D868E21A1C4E31FF004CD77F;
+					};
+				};
+			};
+			buildConfigurationList = D868E2161C4E31FF004CD77F /* Build configuration list for PBXProject "SwimFit_final_V2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D868E2121C4E31FF004CD77F;
+			productRefGroup = D868E21C1C4E31FF004CD77F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D868E21A1C4E31FF004CD77F /* SwimFit_final_V2 */,
+				D868E2331C4E3200004CD77F /* SwimFit_final_V2Tests */,
+				D868E23E1C4E3200004CD77F /* SwimFit_final_V2UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D868E2191C4E31FF004CD77F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D868E22E1C4E3200004CD77F /* LaunchScreen.storyboard in Resources */,
+				D8F139041C4EB52000094A45 /* Trainingfinal.png in Resources */,
+				D8F139001C4EB45400094A45 /* Training50n.png in Resources */,
+				D8F138FC1C4EB31200094A45 /* Training-50x50-schwarz.png in Resources */,
+				D8F138F01C4E96BC00094A45 /* Stoppuhr-viertelvor-120x120blau.png in Resources */,
+				D8F139021C4EB49F00094A45 /* Trainingbn50.png in Resources */,
+				D8F138E81C4E94D700094A45 /* logo-mit-pluszeichen-in-logofarbe.png in Resources */,
+				D8F138F81C4EB04200094A45 /* logo-mit-pluszeichen-in-logofarbe75.png in Resources */,
+				D8F138F61C4EB03D00094A45 /* Schwimmer-75x75-blau.png in Resources */,
+				D8F138F41C4E96C700094A45 /* Zahnrad-120x120-lila.png in Resources */,
+				D8F138EE1C4E96B700094A45 /* Schwimmer-120x120-blau.png in Resources */,
+				D8B90C541C4F9DD800F423AC /* logo-swimfit-Apple-Button.png in Resources */,
+				D8F138EA1C4E969F00094A45 /* Innen-Pools-120x120blau.png in Resources */,
+				D868E22B1C4E3200004CD77F /* Assets.xcassets in Resources */,
+				D8F138EC1C4E96AD00094A45 /* Medallien-120x120blau.png in Resources */,
+				D8F138F21C4E96C000094A45 /* Stats-120x120blau.png in Resources */,
+				D868E2291C4E3200004CD77F /* Main.storyboard in Resources */,
+				D8F138FA1C4EB21C00094A45 /* schwimmer50.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D868E2321C4E3200004CD77F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D868E23D1C4E3200004CD77F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D868E2171C4E31FF004CD77F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D868E2261C4E31FF004CD77F /* ViewController.m in Sources */,
+				D8B90C611C4FADE400F423AC /* TagDetailControllerViewController.m in Sources */,
+				D868E2231C4E31FF004CD77F /* AppDelegate.m in Sources */,
+				D868E2201C4E31FF004CD77F /* main.m in Sources */,
+				D8B90C5E1C4FA18F00F423AC /* Trainingsmodule.m in Sources */,
+				D8B90C5B1C4FA17400F423AC /* Categories.m in Sources */,
+				D8B90C641C4FAEFB00F423AC /* FilterListViewController.m in Sources */,
+				D8B90C581C4FA15200F423AC /* Trainingsmodul.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D868E2301C4E3200004CD77F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D868E2391C4E3200004CD77F /* SwimFit_final_V2Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D868E23B1C4E3200004CD77F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D868E2441C4E3200004CD77F /* SwimFit_final_V2UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D868E2361C4E3200004CD77F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D868E21A1C4E31FF004CD77F /* SwimFit_final_V2 */;
+			targetProxy = D868E2351C4E3200004CD77F /* PBXContainerItemProxy */;
+		};
+		D868E2411C4E3200004CD77F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D868E21A1C4E31FF004CD77F /* SwimFit_final_V2 */;
+			targetProxy = D868E2401C4E3200004CD77F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D868E2271C4E3200004CD77F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D868E2281C4E3200004CD77F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D868E22C1C4E3200004CD77F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D868E22D1C4E3200004CD77F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D868E2461C4E3200004CD77F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D868E2471C4E3200004CD77F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D868E2491C4E3200004CD77F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SwimFit_final_V2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "SwimFit-V2.SwimFit-final-V2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D868E24A1C4E3200004CD77F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SwimFit_final_V2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "SwimFit-V2.SwimFit-final-V2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D868E24C1C4E3200004CD77F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SwimFit_final_V2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "SwimFit-V2.SwimFit-final-V2Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwimFit_final_V2.app/SwimFit_final_V2";
+			};
+			name = Debug;
+		};
+		D868E24D1C4E3200004CD77F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SwimFit_final_V2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "SwimFit-V2.SwimFit-final-V2Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwimFit_final_V2.app/SwimFit_final_V2";
+			};
+			name = Release;
+		};
+		D868E24F1C4E3200004CD77F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SwimFit_final_V2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "SwimFit-V2.SwimFit-final-V2UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SwimFit_final_V2;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		D868E2501C4E3200004CD77F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SwimFit_final_V2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "SwimFit-V2.SwimFit-final-V2UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SwimFit_final_V2;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D868E2161C4E31FF004CD77F /* Build configuration list for PBXProject "SwimFit_final_V2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D868E2461C4E3200004CD77F /* Debug */,
+				D868E2471C4E3200004CD77F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D868E2481C4E3200004CD77F /* Build configuration list for PBXNativeTarget "SwimFit_final_V2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D868E2491C4E3200004CD77F /* Debug */,
+				D868E24A1C4E3200004CD77F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D868E24B1C4E3200004CD77F /* Build configuration list for PBXNativeTarget "SwimFit_final_V2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D868E24C1C4E3200004CD77F /* Debug */,
+				D868E24D1C4E3200004CD77F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D868E24E1C4E3200004CD77F /* Build configuration list for PBXNativeTarget "SwimFit_final_V2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D868E24F1C4E3200004CD77F /* Debug */,
+				D868E2501C4E3200004CD77F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D868E2131C4E31FF004CD77F /* Project object */;
+}

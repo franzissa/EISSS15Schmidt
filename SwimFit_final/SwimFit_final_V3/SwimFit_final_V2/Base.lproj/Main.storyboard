@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="14F1509" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Lne-ra-afX">
+                                <rect key="frame" x="162" y="481" width="103" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="einlogggen"/>
+                                <connections>
+                                    <segue destination="cNF-41-sJu" kind="modal" identifier="MeinSegue" modalPresentationStyle="fullScreen" id="vYn-D2-dnE"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Name" textAlignment="natural" minimumFontSize="17" id="uf1-8i-JAh">
+                                <rect key="frame" x="72" y="368" width="198" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Passwort" textAlignment="natural" minimumFontSize="17" id="urE-eu-Wq1">
+                                <rect key="frame" x="72" y="418" width="198" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo-swimfit-Apple-Button.png" id="MpZ-W4-7kf">
+                                <rect key="frame" x="40" y="101" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="153" y="-457"/>
+        </scene>
+        <!--Plan-->
+        <scene sceneID="MRE-Bi-Vxd">
+            <objects>
+                <viewController id="g2A-By-js6" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="gJY-Qp-Frt">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.59360759832175125" green="0.82121081469567003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Plan" image="Trainingfinal.png" selectedImage="Trainingfinal.png" id="fTp-Iv-0Lm"/>
+                    <navigationItem key="navigationItem" id="NsY-kx-qfm"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cBP-Pz-jkQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1078" y="-468"/>
+        </scene>
+        <!--Profil-->
+        <scene sceneID="Y5E-cm-zek">
+            <objects>
+                <viewController id="5lC-Ah-edh" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="7ho-5s-rJR">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.52884334556370005" green="0.57227380075267376" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Profil" image="schwimmer50.png" selectedImage="schwimmer50.png" id="Hpp-va-m2p"/>
+                    <navigationItem key="navigationItem" id="qfK-1f-K7T"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="980-DF-ab8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="878" y="251"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="Osk-SK-PvX">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="cNF-41-sJu" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="NgE-Kq-5gY">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <color key="barTintColor" red="0.18459312304606557" green="0.56806070599699932" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="selectedImageTintColor" cocoaTouchSystemColor="darkTextColor"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="g2A-By-js6" kind="relationship" relationship="viewControllers" id="lK0-V4-cgm"/>
+                        <segue destination="5lC-Ah-edh" kind="relationship" relationship="viewControllers" id="Ft2-z6-Gas"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0uW-El-UdP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="546" y="-468"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Trainingfinal.png" width="50" height="50"/>
+        <image name="logo-swimfit-Apple-Button.png" width="206" height="120"/>
+        <image name="schwimmer50.png" width="50" height="50"/>
+    </resources>
+</document>
