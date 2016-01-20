@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <script src="http://code.jquery.com/jquery-latest.js"></script>
+     <script type="text/javascript">
+         
+         
+         
+         $(document).ready(function()
+{
+   //Beim "Senden" soll folgendes passieren ...
+    $("#ph").submit(function() {
+ 
+        
+	         event.preventDefault();
+       var data = 
+			{ 	
+				nodulname: $('#name').val() ,
+			 	modulGruppe: $('#modulGruppe').val() ,
+			 	strecke: $('#strecke').val(),
+			 	lage: $('#lage').val(),
+			 	zeit: $('#zeit').val(),
+			 	puls: $('#puls').val()
+			 	
+			 };
+			 //AJAX - Methode für das POST
+	        $.ajax({
+	          	type: 'POST',
+	          	url: '/modul',
+	          	data: JSON.stringify(data),	//Datentyp
+	          	contentType: 'application/json'
+	          }).done(function(){	//wenn hinzugefuegt wurde
+	          	alert(data.name+' wurde hinzugefügt!');	
+	          	 $('#ph')[0].reset();	//Formular zurücksetzen
+	          }).fail(function(event){	//Fehlermeldung
+	          	alert(data.name+' konnte nicht hinzugefuegt werden!('+JSON.stringify(event)+')');
+	          });
+ 
+    });
+});
+         
+</script>
+        
+    </head>
+    <body>
+
+        <form id='ph' action='/modul' method='POST'>
+                 <label>Modulname</label><input type='text' id = 'name' name='name' value=''/></br>
+                 <label>Modulgruppe</label><input type='text' id = 'modulGruppe' name='modulGruppe' value=''/></br>
+                 <label>Strecke</label><input type='text' id='strecke' name='strecke' value=''/></br>
+                 
+                 <label>Lage</label><input type='text' id='lage' name='lage' value=''/></br>
+                 <label>Zeit</label><input type='text' id='zeit' name='zeit' value=''/></br>
+                 <label>Puls</label><input type='text' id='puls' name='puls' value=''/></br>
+                 
+                 
+                 
+                 <input type='submit' value='Eintragen' />
+                 </form>
+        
+
+    </body>
+</html>
